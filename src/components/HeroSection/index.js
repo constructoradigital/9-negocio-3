@@ -27,7 +27,7 @@ export const HeroSection = () => {
                         primary="true"
                         dark="true"
                     >
-                        INGRESAR {hover ? <ArrowForward/> : <ArrowRight/>}
+                        REGISTRARSE {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

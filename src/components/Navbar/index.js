@@ -40,29 +40,29 @@ export const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'
+                            <NavLinks to='home'
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}  
-                            >About</NavLinks>
+                            >Registrarse</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'
+                            <NavLinks to='planes'
                              smooth={true} duration={500} spy={true} exact='true' offset={-80} 
-                            >Discover</NavLinks>
+                            >Planes</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='services'
                              smooth={true} duration={500} spy={true} exact='true' offset={-80} 
-                            >Services</NavLinks>
+                            >Servicios</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='signup'
                              smooth={true} duration={500} spy={true} exact='true' offset={-80} 
-                            >Sign Up</NavLinks>
+                            >Tour</NavLinks>
                         </NavItem>
                     </NavMenu>
 
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to="/signin">Ingresar</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

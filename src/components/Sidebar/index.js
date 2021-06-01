@@ -9,21 +9,21 @@ export const Sidebar = ({isOpen, toggle}) => {
             </CloseIcon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>
-                        About
+                    <SidebarLink to="home" onClick={toggle}>
+                        Registrarse
                     </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
-                        Discover
+                    <SidebarLink to="planes" onClick={toggle}>
+                        Planes
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
-                        Services
+                        Servicios
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                        Tour
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='/signin' onClick={toggle}>Sign In</SidebarRoute>
+                    <SidebarRoute to='/signin' onClick={toggle}>INGRESAR</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
